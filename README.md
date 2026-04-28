@@ -1,6 +1,6 @@
 # Final Analytics Project
 
-Our project utilizes a Device Addiction data to predict whether a person will be addicted to their device or not.
+Our project utilizes a Device Addiction dataset to predict whether a person will be addicted to their device or not.
 
 [Link to Dataset on Kaggle](https://www.kaggle.com/datasets/jayjoshi37/smartphone-usage-and-addiction-prediction)
 
@@ -22,7 +22,7 @@ After building and testing, the model was evaluated using the accuracy, cross-va
 Using the Logistic Regression Model on the test data yielded an AUC of 95.47% and Recall of 94.22%. The main features that contributed to predicting whether a person is addicted or not were daily_screen_time_hours and social_media_hours. They had feature importances of 9.35 and 7.74 respectively, whereas all other feature importances had importance values below 1. The AUC of 95.47% shows that the Logistic Regression Model is able to predict very well, with mostly true positives as opposed to false positives. This is especially impressive because our prevalence is 70.77%, so this model is a significant improvement over merely guessing. Recall is made of TP/TP+FN, so with a Recall score of 94.22%, that means this model has done a good job of reducing false negatives.
 
 ## Conclusions
-
+Since the AUC scores for all three models were quite strong, we can be confident that the models can predict whether a person will be addicted to their cellphone, as we asked in our project question. The primary indicators for cellphone addiction that we discovered are high hours of gaming, low hours of work/studying, high daily screen time hours and high daily social media hours. If some or all of these are true for an individual, it is almost certain that they are addicted to their cellphone. Given the results of the data, we would recommend that preventing cellphone addiction is best practiced by limiting high gaming time, daily screen time, and social media time, and possibly increasing the number of hours spent on work/studying. 
 
 ## Team Contribution
 Jason Chen: EDA, Decision Tree model construction, Decision Tree model evaluation.
