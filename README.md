@@ -26,5 +26,7 @@ Using the Logistic Regression Model on the test data yielded an AUC of 95.47% an
 
 ## Team Contribution
 Jason Chen: EDA, Decision Tree model construction, Decision Tree model evaluation.
+
 Ryan Healy: Background info, Logistic Regression model construction, Logistic Regression model evaluation, Conclusion.
+
 Luca Sambat: Background info, Random Forest model construction, Random Forest model evaluation.
